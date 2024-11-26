@@ -4,9 +4,9 @@ while True: #Пока правда
     for i in range(len(my_list)):
         if my_list[ind] > 0:
             print(my_list[ind])
-            ind = ind + 1
+            ind += 1
         elif my_list[ind] == 0 :
-            ind = ind + 1
+            ind += 1
             continue
         else:
             break
